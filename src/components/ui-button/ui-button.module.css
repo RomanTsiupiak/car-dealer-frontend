@@ -1,0 +1,47 @@
+.primary {
+  padding: 8px 16px;
+  border-radius: 6px;
+  min-width: 80px;
+  background-color: var(--color-slate-700);
+  cursor: pointer;
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: var(--color-white);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.icon {
+  padding: 8px;
+  border-radius: 6px;
+  background-color: var(--color-slate-100);
+  border: 1px solid var(--color-slate-200);
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.text {
+  padding: 8px;
+  cursor: pointer;
+
+  p {
+    color: var(--color-slate-700);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
