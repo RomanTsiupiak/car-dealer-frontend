@@ -1,4 +1,4 @@
-import { Typography } from "../typography/typography";
+import { Typography } from "@/components";
 
 export const UiLogo = () => {
   return (
@@ -7,7 +7,7 @@ export const UiLogo = () => {
         car
       </Typography>
 
-      <Typography variant="small" className="uppercase text-red-500">
+      <Typography variant="small-bold" className="uppercase text-red-500">
         dealership
       </Typography>
     </div>
